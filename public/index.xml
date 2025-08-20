@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ivan Lawrence</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Ivan Lawrence</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Aug 2025 00:08:20 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to backup, offline, or archive a git repo</title>
+      <link>http://localhost:1313/posts/git/</link>
+      <pubDate>Wed, 20 Aug 2025 00:08:20 -0700</pubDate>
+      <guid>http://localhost:1313/posts/git/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m not sure why this isn&amp;rsquo;t really covered simply in one place but here it goes&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Using just the cli you can do the following:&lt;/p&gt;&#xA;&lt;p&gt;FYI: the &lt;code&gt;git archive&lt;/code&gt; command is not the thing we want, that is more for prepping code for deployment to a site…&lt;/p&gt;&#xA;&lt;p&gt;What we really want is to &lt;a href=&#34;https://docs.github.com/en/repositories/archiving-a-github-repository/backing-up-a-repository&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;offline or backup the repo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The idea is:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;git clone --mirror &amp;lt;repository_url&amp;gt;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;which results in a dir &lt;code&gt;&amp;lt;repository_url&amp;gt;.git/&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;cd &amp;lt;repository_url&amp;gt;.git/&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;what-about-me&#34;&gt;&#xA;  What about me?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#what-about-me&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;h1 id=&#34;ivan-lawrence&#34;&gt;&#xA;  &lt;strong&gt;Ivan Lawrence&lt;/strong&gt;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#ivan-lawrence&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;full-stack-developer--devops-engineer&#34;&gt;&#xA;  Full Stack Developer / DevOps Engineer&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#full-stack-developer--devops-engineer&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:ivan@ivanlawrence.com&#34; &gt;ivan@ivanlawrence.com&lt;/a&gt; | &lt;strong&gt;Phone:&lt;/strong&gt; 818-264-4467 | &lt;strong&gt;Location:&lt;/strong&gt; Simi Valley, CA&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://www.linkedin.com/in/ivan-lawrence/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LinkedIn&lt;/a&gt; | &lt;a href=&#34;http://www.imdb.com/name/nm2648503/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IMDb&lt;/a&gt; | &lt;a href=&#34;https://ivanlawrence.com/resume&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ivanlawrence.com/resume&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;professional-summary&#34;&gt;&#xA;  Professional Summary&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#professional-summary&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Devoted systems/software engineer with 20+ years of professional experience across a variety of technical disciplines. Proven track record from on-premises private cloud to public cloud migrations and back again.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
