@@ -1,6 +1,6 @@
 ---
-title: Resume/CV for Ivan Lawrence
-description: Profesional Resume for Ivan Lawrence - Technologist
+title: 
+description: Profesional Resume for Ivan Lawrence
 authors: ""
 ---
 # **Ivan Lawrence**
