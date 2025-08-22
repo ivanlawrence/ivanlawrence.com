@@ -11,11 +11,15 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-      - name: Install dependencies
-        run: npm install
+      # - name: Setup Node.js
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: '18'
+      # - name: Install dependencies
+      #   run: npm install
       - name: RSS Feed to Markdown
         uses: keiranlovett/rss-feed-to-markdown@v1.1.6
+        with:
+          feed_url: "https://nerdler.ivanlawrence.com/feeds/posts/default?alt=rss"
+          template_file: "templates/blog_template.md"
+          output_dir: "content/nerdler"
