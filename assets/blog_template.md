@@ -1,20 +1,15 @@
----
-id: [ID]
-link: [LINK]
-title: [TITLE]
-date: [DATE]
-author: [AUTHOR]
-keywords: [CATEGORIES]
-image: [IMAGE]
-images: [IMAGES]
-description: >
-  [DESCRIPTION]
----
++++
+date = "[DATE]"
+title = "[TITLE]"
+description = "[DESCRIPTION]"
+slug = "[SLUG]"
+authors = [ "Ivan Lawrence" ]
+tags = [ "nerdler" ]
+categories = []
+externalLink = "[LINK]"
+series = [ ]
++++
+
 # [TITLE]
-##### By [AUTHOR]
-_Published on [DATE]_
 
 [MARKDOWN]
-
----
-Categories: [CATEGORIES]
