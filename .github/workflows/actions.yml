@@ -6,20 +6,23 @@ on:
       - actions
 
 jobs:
-  build:
+  import_rss:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      # - name: Setup Node.js
-      #   uses: actions/setup-node@v4
-      #   with:
-      #     node-version: '18'
-      # - name: Install dependencies
-      #   run: npm install
+      
       - name: RSS Feed to Markdown
         uses: keiranlovett/rss-feed-to-markdown@v1.1.6
         with:
           feed_url: "https://nerdler.ivanlawrence.com/feeds/posts/default?alt=rss"
           template_file: "templates/blog_template.md"
           output_dir: "content/nerdler"
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || (git commit -m "Update blog posts from RSS feed" && git push)
