@@ -1,5 +1,5 @@
 +++ 
-date = 2025-08-20T00:08:20-07:00
+date = 2025-03-28T00:12:45-07:00
 title = "How to backup, offline, or archive a git repo"
 description = "Join me on a git adventure to archive, backup, and store offline some old code repos"
 slug = "git"
