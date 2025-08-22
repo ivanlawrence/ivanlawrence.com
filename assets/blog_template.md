@@ -5,7 +5,6 @@ slug = "[SLUG]"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []
-externalLink = "[LINK]"
 series = [ ]
 +++
 
