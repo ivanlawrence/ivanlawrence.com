@@ -1,10 +1,9 @@
 ---
-title: 
-description: Profesional Resume for Ivan Lawrence
+title: Ivan Lawrence
+description: Professional Resume for Ivan Lawrence
 authors: ""
 ---
-# **Ivan Lawrence**
-## Full Stack Developer / DevOps Engineer
+## Systems Design // Full-Stack Developer // DevOps Engineer
 
 **Email:** [ivan@ivanlawrence.com](mailto:ivan@ivanlawrence.com) | **Phone:** 818-264-4467 | **Location:** Simi Valley, CA
 
@@ -12,7 +11,16 @@ authors: ""
 
 # Professional Summary
 
-Devoted systems/software engineer with 20+ years of professional experience across a variety of technical disciplines. Proven track record from on-premises private cloud to public cloud migrations and back again.
+- 20+ years of professional experience across a variety of technical disciplines
+- 6+ years of Full-Stack development (all aspects of SDLC)
+- 6+ years of systems design and integration (hardware and software)
+- 12+ years of Enterprise IT and Executive Support
+- MGMT: 2+ years as department lead // 1 year leading data scientist and devs (4 direct reports)
+
+# Impact Summary
+- 70% monthly spend reduction with cloud exit
+- 99.999% uptime across multi-petabyte storage
+- Proven business consistency during catastrophic hardware failure
 
 
 # Experience 
