@@ -7,7 +7,7 @@ authors: ""
 
 **Email:** [ivan@ivanlawrence.com](mailto:ivan@ivanlawrence.com) | **Phone:** 818-264-4467 | **Location:** Simi Valley, CA
 
-**Links:** [LinkedIn](https://www.linkedin.com/in/ivan-lawrence/) | [IMDb](http://www.imdb.com/name/nm2648503/) | [https://ivanlawrence.com/resume](https://ivanlawrence.com/resume)
+**Links:** [LinkedIn](https://www.linkedin.com/in/ivan-lawrence/) | [IMDb](http://www.imdb.com/name/nm2648503/) | [https://ivanlawrence.com/resume](https://ivanlawrence.com/resume) [download](https://resume.ivanlawrence.com)
 
 # Professional Summary
 
@@ -21,6 +21,7 @@ authors: ""
 - 70% monthly spend reduction with cloud exit
 - 99.999% uptime across multi-petabyte storage
 - Proven business consistency during catastrophic hardware failure
+- Decreased downtime by 61% by implementing automaton
 
 
 # Experience 
