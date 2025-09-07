@@ -18,7 +18,7 @@ enableEmoji = true
 # url = 'gs://ivanlawrence.com'
 
 [pagination]
-pagerSize = 6
+pagerSize = 12
 
 [services]
 [services.disqus]
@@ -38,7 +38,7 @@ author = "Ivan Lawrence"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Ivan Lawrence's personal website"
 keywords = "blog,developer,personal"
-info = ["Full Stack DevOps", "Magician"]
+info = ["Full Stack DevOps", "Magician", "Rock Climber"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"

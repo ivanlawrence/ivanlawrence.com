@@ -61,6 +61,11 @@
           "name": "series",
           "type": "fields",
           "fields": []
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
         }
       ]
     }

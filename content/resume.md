@@ -1,7 +1,7 @@
 ---
 title: Ivan Lawrence
 description: Professional Resume for Ivan Lawrence
-authors: ""
+authors: "Ivan Lawrence"
 ---
 ## Systems Design // Full-Stack Developer // DevOps Engineer
 
