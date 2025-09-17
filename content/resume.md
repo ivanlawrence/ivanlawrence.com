@@ -7,7 +7,7 @@ authors: "Ivan Lawrence"
 
 **Email:** [ivan@ivanlawrence.com](mailto:ivan@ivanlawrence.com) | **Phone:** 818-264-4467 | **Location:** Simi Valley, CA
 
-**Links:** [LinkedIn](https://www.linkedin.com/in/ivan-lawrence/) | [IMDb](http://www.imdb.com/name/nm2648503/) | [https://ivanlawrence.com/resume](https://ivanlawrence.com/resume) [download](https://resume.ivanlawrence.com)
+**Links:** [LinkedIn](https://www.linkedin.com/in/ivan-lawrence/) | [IMDb](http://www.imdb.com/name/nm2648503/) | [HackerRank](https://www.hackerrank.com/profile/ivanlawrence) | [https://ivanlawrence.com/resume](https://ivanlawrence.com/resume) [download](https://resume.ivanlawrence.com)
 
 # Professional Summary
 
@@ -123,3 +123,5 @@ Film Roman is an animation studio known for producing Emmy Award-winning shows s
 *   Data Direct Networks - Hardware / SFA Fundamentals
     
 *   QLogic Fibre Channel Specialist
+
+*   HackerRank: Software Engineer & JAVA (Basic)
