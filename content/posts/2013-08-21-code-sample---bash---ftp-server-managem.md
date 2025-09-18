@@ -1,7 +1,7 @@
 +++
 date = "Wed, 21 Aug 2013 19:05:00 +0000"
 title = "Code Sample - BASH - FTP Server Management Script - IvansTool"
-slug = "[SLUG]"
+slug = "bash-ftp-server-management-script"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

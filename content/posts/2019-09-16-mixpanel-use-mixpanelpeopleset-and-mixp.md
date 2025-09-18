@@ -1,7 +1,7 @@
 +++
 date = "Mon, 16 Sep 2019 23:06:00 +0000"
 title = "MixPanel use mixpanelpeopleset and mixpanelidentify together"
-slug = "[SLUG]"
+slug = "mixpanel-peopleset-identify-together"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

@@ -1,7 +1,7 @@
 +++
 date = "Fri, 22 Mar 2024 20:17:00 +0000"
 title = "Google Workspace Routing gmail pro catch-all routing"
-slug = "[SLUG]"
+slug = "google-workspace-gmail-catch-all-routing"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []
