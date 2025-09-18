@@ -1,7 +1,7 @@
 +++
 date = "Fri, 16 Aug 2013 23:14:00 +0000"
 title = "SSH tricks"
-slug = "[SLUG]"
+slug = "ssh-tricks"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []
@@ -29,4 +29,13 @@ Another common use is to remotely connect and use screen for continued administr
   
 `ssh -t user@host -p xxxxx screen -dR Ivan`  
 This tells ssh to make a connection to the host system (home) as "user" (me) on port xxxxxx and launch screen connecting to or creating a session called Ivan.  The -t forces the creation of a "terminal" which means, if you do not have -t having ssh launch some applications fail.  Lots of awesome tricks with ssh, I'll put more in the future.  
-If you are in need of sending [command substitution](http://tldp.org/LDP/abs/html/commandsub.html) variables to get the remote system to add the current time to the name of a file that you are creating so need to put an escape character  before the $ or you will get the command substitution of the local system.  \[ex: ssh root@ "zip -r /path/to/dir/\\$(date +%F-%H\_%M)-\\$(hostname | grep -i something | awk '{print \\$2;}')-logs.zip /path/to/things/to/zip"\] \[hint: notice the \\ in front of all the s\]
+
+If you need to send command substitution variables to the remote system (for example, to use the remote system's date in a filename), you must escape the `$` character. Otherwise, the command will be substituted on your local system before being sent.
+
+For example:
+
+```bash
+ssh root@remote-host "zip -r /path/to/dir/\\$(date +%F-%H_%M)-\\$(hostname)-logs.zip /path/to/things/to/zip"
+```
+
+**Hint:** Notice the backslash (`\`) before each `$` in the command.

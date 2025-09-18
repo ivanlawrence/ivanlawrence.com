@@ -101,6 +101,7 @@ New Volume Label -Device: /dev/sda  SNFS Label: LUN14  Sectors: 9376430047.
 
 In some cases you are able to use an existing file system config file (or the following) and simply change a few parts to add additional file systems to an existing SAN.  For this example we will use the following existing file: `volA.cfgx`
 
+```xml
 <?xml version="1.0"?>
 <configDoc xmlns="http://www.quantum.com/snfs" version="1.0">
   <config configVersion="0" name="volA" fsBlockSize="16384" journalSize="16777216">
@@ -180,9 +181,11 @@ In some cases you are able to use an existing file system config file (or the fo
     </stripeGroups>
   </config>
 </configDoc>
+```
 
 The above file can be copied to make a new file system config file with some changes: `volB.cfgx`
 
+```xml
 <?xml version="1.0"?>
 <configDoc xmlns="http://www.quantum.com/snfs" version="1.0">
   <config configVersion="0" name="volB" fsBlockSize="16384" journalSize="16777216">
@@ -255,6 +258,7 @@ The above file can be copied to make a new file system config file with some cha
     </stripeGroups>
   </config>
 </configDoc>
+```
 
  NOTE: _The following is the minimum amount of info that needs to be changed (needs to be unique across file systems or data loss can occur)!_  The name of the file needs to match the file system name.  Additionally, based on the info gathered from running the [CVLABEL](#cvlabel) command earlier, be sure to reflect the new metadata label and sectors and data label and sectors from the `cvlabel` output.
 

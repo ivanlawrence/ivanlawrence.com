@@ -1,6 +1,6 @@
 baseURL = "https://ivanlawrence.com"
 title = "Ivan Lawrence"
-theme = "hugo-coder"
+theme = ["hugo-coder"]
 languageCode = "en"
 defaultContentLanguage = "en"
 enableEmoji = true
