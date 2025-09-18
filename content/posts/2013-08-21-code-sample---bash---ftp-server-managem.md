@@ -16,11 +16,12 @@ While posting this script I see places that could be improved, simplified, and c
   
 This script is called "IvansTool":  
   
-
+```bash
 #!/bin/bash
 #IvansTool
 #
 #------------------------------------------
+#
 #
 #       Ivan Lawrence
 #       written: Jan 26, 2010
@@ -29,7 +30,7 @@ This script is called "IvansTool":
 #
 #   >>FUNCTIONS<<
 function if0 {
-if \[ -z $1 \]
+if [ -z $1 ]
 then
  echo "No empty variables!"
  echo "$2 was empty!"
@@ -39,7 +40,7 @@ then
 fi
 }
 function pause {
-read -p "Press the \[ENTER\] or \[RETURN\] key to continue or CTR+C to cancel..."
+read -p "Press the [ENTER] or [RETURN] key to continue or CTR+C to cancel..."
 }
 #
 # See what Productions have a mounted volume
@@ -47,7 +48,7 @@ function listProd {
 GetProd=$(df -H | grep /data/ | awk -F" " '{print $5}' | awk -F"/" '{print $3}' | sort -d)
 select ProdName in $GetProd
 do
-if \[\[ -n $ProdName \]\]
+if [[ -n $ProdName ]]
 then
  break
 else
@@ -61,7 +62,7 @@ function listUser {
 GetUser=$(grep /data/ /etc/passwd | awk -F":" '{print $1}' | sort -d)
 select username in $GetUser
 do
-if \[\[ -n $username \]\]
+if [[ -n $username ]]
 then
  break
 else
@@ -76,7 +77,7 @@ unset PASS
 MATRIX="123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz!@#$%&\*?-\_=+)(}{\]\[><"
 LENGTH="8"
 n=1
-while \[ "$n" -le "$LENGTH" \]
+while [ "$n" -le "$LENGTH" ]
 do
         RealRand=$(dd if=/dev/urandom count=1 2> /dev/null | cksum | cut -f1 -d" ")
         PASS="$PASS${MATRIX:$(($RealRand%${#MATRIX})):1}"
@@ -96,26 +97,26 @@ Punc="!@#$%&\*?-\_=+)(}{\]\[><"
 Num="123456789"
 LENGTH="9"
 n=1
-while \[ $n -le "$LENGTH" \]
+while [ $n -le "$LENGTH" ]
 do
  RealRand=$(dd if=/dev/urandom count=1 2> /dev/null | cksum | cut -f1 -d" ")
 #       PASS="$PASS${MATRIX:$(($RealRand%${#MATRIX})):1}"
- if \[\[ (($n > 3)) && (($n < 7)) \]\]
+ if [[ (($n > 3)) && (($n < 7)) ]]
  then
   PASS="$PASS${Cap:$(($RealRand%${#Cap})):1}"
 #  echo "$PASS"
  fi
- if \[\[ (($n < 3)) \]\]
+ if [[ (($n < 3)) ]]
  then
   PASS="$PASS${Low:$(($RealRand%${#Low})):1}"
 #  echo "$PASS"
  fi
- if \[\[ (($n == 3)) || (($n == 7)) \]\]
+ if [[ (($n == 3)) || (($n == 7)) ]]
  then
   PASS="$PASS${Punc:$(($RealRand%${#Punc})):1}"
 #  echo "$PASS"
  fi
- if \[\[ (($n > 7)) \]\]
+ if [[ (($n > 7)) ]]
  then
   PASS="$PASS${Num:$(($RealRand%${#Num})):1}"
 #  echo "$PASS"
@@ -129,7 +130,7 @@ function emailRootAdminemail {
 # experimental: I have not tested this loop for sending email to root per account!
 emailDir=Scripts
 address=root
-if \[ -f $emailDir/ftp\_email\_body \]
+if [ -f $emailDir/ftp\_email\_body ]
 then
  sh $emailDir/ftp\_email\_body $1 $2 > $emailDir/ftpemail
  mail $address -s "FTP account created: $1" < $emailDir/ftpemail
@@ -181,22 +182,22 @@ echo "If you used scp to get the file here I can move the file from your home di
 GetSSHuserhome=$(grep /home/ /etc/passwd | grep nologin -v | awk -F":" '{print $1}' | sort -d)
 select SSHuserhome in $GetSSHuserhome root
 do      
-if \[\[ -n $SSHuserhome \]\]
+if [[ -n $SSHuserhome ]]
 then
         break
 else
         echo "Select a number..."
 fi
 done
-if \[\[ $SSHuserhome == "root" \]\]
+if [[ $SSHuserhome == "root" ]]
 then
  UserHomeCSV=$(find /$SSHuserhome -name \*.csv)
 else
  UserHomeCSV=$(find /home/$SSHuserhome -name \*.csv)
- if \[\[ -f $UserHomeCSV \]\]
+ if [[ -f $UserHomeCSV ]]
  then
-  read -p "Move $UserHomeCSV to /root for use? (y/n) " moveCSV
-  if \[\[ $moveCSV == "y" || $moveCSV == "Y" \]\]
+  read -p "Move $UserHomeCSV to /root for use? [y/n] " moveCSV
+  if [[ $moveCSV == "y" || $moveCSV == "Y" ]]
   then
    mv $UserHomeCSV /root/
   else
@@ -213,8 +214,8 @@ echo "Make sure there are no empty fields, empty lines, or unwanted spaces in li
 echo "\*NOTE\* You will enter VIM to edit the file, to remove lines navigate to the line to be deleted and strike the letter d twice."
 echo "To exit VIM and continue strike ESC the type :q to quit, if changes have been made strike ESC then type :wq."
 FindCSV=$(find /root -name \*.csv)
-read -p "I've found $FindCSV, would you like to use it? \[y/n\] " useResult
-if \[\[ $useResult == "y" || $userResult == "Y" \]\]
+read -p "I've found $FindCSV, would you like to use it? [y/n] " useResult
+if [[ $useResult == "y" || $userResult == "Y" ]]
 then
  vim $FindCSV
  CSVFILE=$FindCSV
@@ -222,10 +223,10 @@ else
  read -p "Path to CSV for user creation:" CSVFILE
 fi
 if0 $CSVFILE "CSVFILE"
-read -p "Would you like a form email for each account sent to the admin account? \[y/n\] " sendRootEmail
+read -p "Would you like a form email for each account sent to the admin account? [y/n] " sendRootEmail
 echo "About to use File: $CSVFILE to create volumes and user accounts"
 pause
-if \[ -f $CSVFILE \]
+if [ -f $CSVFILE ]
 then
  exec < $CSVFILE
  while read line
@@ -241,7 +242,7 @@ then
   if0 $username "username"
   if0 $password "password"
   echo "File entry = $ProductionName, $size G, $username, $password"
-  if \[ -d /data/$ProductionName \]
+  if [ -d /data/$ProductionName ]
   then
    CHKVolGroup=$(lvdisplay | grep $ProductionName | awk -F" " '{print $3}')
    echo "Logical Volume already exists! ($CHKVolGroup)"
@@ -256,13 +257,13 @@ then
    echo "Created volume: $ProductionName = $size G"
   fi
   id -un $username
-  if \[ $? == 0 \]
+  if [ $? == 0 ]
   then
    echo "User $username already exists!"
    echo "$password" | passwd $username --stdin
    echo "The password for $username has been updated to $password"
    # experimental: I have not tested this loop for sending email to root per account!
-   if \[\[ $sendRootEmail == "y" || $sendRootEmail == "Y" \]\]
+   if [[ $sendRootEmail == "y" || $sendRootEmail == "Y" ]]
    then
     emailRootAdminemail $username $password
    fi
@@ -271,14 +272,14 @@ then
    echo "$password" | passwd $username --stdin
    echo "User created: $username / $password"
    # experimental: I have not tested this loop for sending email to root per account!
-   if \[\[ $sendRootEmail == "y" || $sendRootEmail == "Y" \]\]
+   if [[ $sendRootEmail == "y" || $sendRootEmail == "Y" ]]
    then
     emailRootAdminemail $username $password
    fi
   fi
  #end while loop
  done
- if \[\[ $sendRootEmail == "y" || $sendRootEmail == "Y" \]\]
+ if [[ $sendRootEmail == "y" || $sendRootEmail == "Y" ]]
  then
   echo "Accounts have been created and emails sent"
  else
@@ -287,7 +288,7 @@ then
  fi
  read -p "Delete $CSVFILE? (y/n) " CSVFileDEL
  echo "$CSVFILE and $CSVFileDEL"
- if \[\[ $CSVFileDEL == "y" || $CSVFileDEL == "Y" \]\]
+ if [[ $CSVFileDEL == "y" || $CSVFileDEL == "Y" ]]
  then
   rm $CSVFILE
  else
@@ -306,24 +307,24 @@ if0 $ProdName "ProdName"
 read -p "Username: " username
 if0 $username "username"
 custPassGen
-read -p "Use password $password \[y\] or create your own? \[(c)reate\]" genpass
+read -p "Use password $password [y] or create your own? [(c)reate]" genpass
 if0 $genpass "genpass"
-if \[ $genpass == "c" \] || \[ $genpass == "create" \]
+if [ $genpass == "c" ] || [ $genpass == "create" ]
 then
  read -p "Password: " password
  if0 $password "password"
 fi
-read -p "Add $username to $ProdName using password $password ? \[y/n\]: " adduser
+read -p "Add $username to $ProdName using password $password ? [y/n]: " adduser
 if0 $adduser "adduser"
-if \[ $adduser != "y" \]
+if [ $adduser != "y" ]
 then
  echo "No user added"
  exit 0
 else
-if \[ -d /data/$ProdName \]
+if [ -d /data/$ProdName ]
 then
  id -un $username
- if \[ $? == 0 \]
+ if [ $? == 0 ]
  then
   echo "User $username already exists!"
   exit 0
@@ -333,7 +334,7 @@ then
   echo "User created: $username / $password"
   emailDir=Scripts
   address=dl-bur-serveradmin@starz.com
-  if \[ -f $emailDir/ftp\_email\_body \]
+  if [ -f $emailDir/ftp\_email\_body ]
   then
    sh $emailDir/ftp\_email\_body $username $password > $emailDir/ftpemail
    mail $address -s "FTP account created: $username" < $emailDir/ftpemail
@@ -364,15 +365,15 @@ if0 $username "username"
 #read -p "Password: " password
 #if0 $password "password"
 custPassGen
-read -p "Use password $password \[y\] or create your own? \[(c)reate\]" genpass
+read -p "Use password $password [y] or create your own? [(c)reate]" genpass
 if0 $genpass "genpass"
-if \[ $genpass == "c" \] || \[ $genpass == "create" \]
+if [ $genpass == "c" ] || [ $genpass == "create" ]
 then
  read -p "Password: " password
  if0 $password "password"
 fi
 #Check to see if the Production has a DIR
-if \[ -d /data/$ProductionName \]
+if [ -d /data/$ProductionName ]
 then
  CHKVolGroup=$(lvdisplay | grep $ProductionName | awk -F" " '{print $3}')
  echo "Logical Volume / Production already exists! ($CHKVolGroup)"
@@ -390,7 +391,7 @@ else
  echo "Created volume: $ProductionName = $size G"
 fi
 id -un $username
-if \[ $? == 0 \]
+if [ $? == 0 ]
 then
  echo "User $username already exists!"
  echo "Try Again!"
@@ -401,7 +402,7 @@ else
  echo "User created: $username / $password"
  emailDir=Scripts
  address=dl-bur-serveradmin@starz.com
- if \[ -f $emailDir/ftp\_email\_body \]
+ if [ -f $emailDir/ftp\_email\_body ]
  then
   sh $emailDir/ftp\_email\_body $username $password > $emailDir/ftpemail
   mail $address -s "FTP account created: $username" < $emailDir/ftpemail
@@ -416,12 +417,12 @@ echo "This will remove the FTP share and it's data"
 listUser
 usernameHome=$(grep $username /etc/passwd | cut -d ':' -f6)
 id -un $username
-if \[ $? == 0 \]
+if [ $? == 0 ]
 then
  echo $username"'s home dir is " $usernameHome
  echo "If you want to also remove the Production partition then abort and choose that option."
- read -p "Continue removing only this user and it's data? \[y/n\]: " continue
- if \[ $continue != "y" \]
+ read -p "Continue removing only this user and it's data? [y/n]: " continue
+ if [ $continue != "y" ]
  then
   echo "Nothing removed"
  else
@@ -441,7 +442,7 @@ echo "Remember, this can not be undone!"
 listProd
 if0 $ProdName "ProdName"
 ProdNameCK=$(grep "/data/$ProdName" /etc/fstab)
-if \[ -z "$ProdNameCK" \]
+if [ -z "$ProdNameCK" ]
 then
  echo "Production does not exists!"
  exit 0
@@ -460,14 +461,14 @@ else
  echo "\*\*\* If there is no entry in /etc/fstab for $ProdName then do not continue!"
  echo "Check your spelling and try again (use the command df -H to list all volumes in use)"
  echo "Continuing will remove all the data in the FTP share(s) under $ProdName."
- read -p "Delete $ProdNameFSTAB2 \*\*note: Once done you can not go back! \[y/n\] " answer1
- if \[ $answer1 != "y" \]
+ read -p "Delete $ProdNameFSTAB2 **note: Once done you can not go back! [y/n] " answer1
+ if [ $answer1 != "y" ]
  then
   exit
  else
   echo "Now deleteing $ProdNameFSTAB2 from the server"
-  read -p "Remove users: $ProdNamePASSWD \[y/n\]: " userdel
-  if \[ $userdel != "y" \]
+  read -p "Remove users: $ProdNamePASSWD [y/n]: " userdel
+  if [ $userdel != "y" ]
   then
    echo "user not deleted"
   else
@@ -484,8 +485,8 @@ else
   cp /etc/fstab.tmp /etc/fstab
   umount $ProdNameFSTAB2
   lvremove $ProdNameFSTAB1
-  read -p "Remove the DIR (rm -r $ProdNameFSTAB2) \[y/n\]: " dirrm
-  if \[ $dirrm != "y" \]
+  read -p "Remove the DIR (rm -r $ProdNameFSTAB2) [y/n]: " dirrm
+  if [ $dirrm != "y" ]
   then
    echo "dir not deleted"
   else
@@ -515,8 +516,8 @@ pause
 }
 function passReset {
 custPassGen
-read -p "Use password $password \[y\] or create your own? \[(c)reate\]" genpass
-if \[\[ $genpass == c \]\]
+read -p "Use password $password [y] or create your own? [(c)reate]" genpass
+if [[ $genpass == c ]]
 then
  read password
 else
@@ -542,8 +543,8 @@ case $resetChoice in
  done
  ;;
  U | u ) listUser
- read -p "reset $username password to $password \[y/n\]" ResetPass
- if \[\[ $ResetPass == y \]\]
+ read -p "reset $username password to $password [y/n]" ResetPass
+ if [[ $ResetPass == y ]]
  then
   echo "$password" | passwd $username --stdin
   echo "user / pass is now $username / $password"
@@ -561,7 +562,7 @@ read -p "password:" emailtestpass
 emailRootAdminemail $emailtestuser $emailtestpass
 }
 #Be sure it's running as root!
-if \[ "$(whoami)" != "root" \]
+if [ "$(whoami)" != "root" ]
 then
         echo "Error: You must be ROOT to add users!"
         exit 1
@@ -611,3 +612,4 @@ else
 fi
 
 End
+```

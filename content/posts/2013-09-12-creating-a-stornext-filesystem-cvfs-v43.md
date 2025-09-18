@@ -1,7 +1,7 @@
 +++
 date = "Thu, 12 Sep 2013 19:45:00 +0000"
 title = "Creating a StorNext Filesystem cvfs v43 or earlier"
-slug = "[SLUG]"
+slug = "creating-stornext-filesystem-cvfs-v43"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

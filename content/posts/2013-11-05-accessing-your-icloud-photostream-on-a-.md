@@ -1,7 +1,7 @@
 +++
 date = "Tue, 05 Nov 2013 21:30:00 +0000"
 title = "Accessing your iCloud Photostream on a Mac"
-slug = "[SLUG]"
+slug = "accessing-icloud-photostream-on-mac"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []
