@@ -1,7 +1,7 @@
 +++
 date = "Tue, 10 Sep 2013 21:06:00 +0000"
 title = "VIM substitution to prepare XML code samples for HTML blogs"
-slug = "[SLUG]"
+slug = "vim-substitution-for-xml-in-html-blogs"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

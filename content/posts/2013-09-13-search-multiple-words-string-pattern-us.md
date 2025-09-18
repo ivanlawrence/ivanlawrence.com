@@ -1,7 +1,7 @@
 +++
 date = "Fri, 13 Sep 2013 00:09:00 +0000"
 title = "Search Multiple Words String Pattern Using grep Command"
-slug = "[SLUG]"
+slug = "search-multiple-words-using-grep"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

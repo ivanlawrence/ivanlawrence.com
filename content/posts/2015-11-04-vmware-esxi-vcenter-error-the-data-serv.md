@@ -1,7 +1,7 @@
 +++
 date = "Wed, 04 Nov 2015 23:55:00 +0000"
 title = "VMWare ESXi vCenter Error The data service timed out because a back-end task took more than 120"
-slug = "[SLUG]"
+slug = "vmware-esxi-vcenter-data-service-timeout"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

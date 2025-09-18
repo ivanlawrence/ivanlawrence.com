@@ -1,7 +1,7 @@
 +++
 date = "Mon, 08 Feb 2016 17:20:00 +0000"
 title = "OSX Keychain Prompting for SSH key passphrase even after saving it"
-slug = "[SLUG]"
+slug = "osx-keychain-prompting-for-ssh-passphrase"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

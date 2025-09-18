@@ -1,7 +1,7 @@
 +++
 date = "Wed, 13 Nov 2013 19:31:00 +0000"
 title = "UNIX find command to open permissions"
-slug = "[SLUG]"
+slug = "unix-find-command-to-open-permissions"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

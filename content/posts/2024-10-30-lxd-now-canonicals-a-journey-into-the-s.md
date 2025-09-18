@@ -1,7 +1,7 @@
 +++
 date = "Wed, 30 Oct 2024 02:41:00 +0000"
 title = "LXD now Canonicals a journey into the simplistically complex"
-slug = "[SLUG]"
+slug = "lxd-now-canonicals-a-journey"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

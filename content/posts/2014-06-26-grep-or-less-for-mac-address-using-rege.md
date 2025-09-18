@@ -1,7 +1,7 @@
 +++
 date = "Thu, 26 Jun 2014 19:54:00 +0000"
 title = "grep or less for MAC address using regex"
-slug = "[SLUG]"
+slug = "grep-or-less-for-mac-address-regex"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

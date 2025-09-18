@@ -1,7 +1,7 @@
 +++
 date = "Fri, 16 Aug 2013 23:18:00 +0000"
 title = "Read a Compressed files without the mess"
-slug = "[SLUG]"
+slug = "read-a-compressed-file-without-the-mess"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

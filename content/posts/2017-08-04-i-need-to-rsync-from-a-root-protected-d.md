@@ -1,7 +1,7 @@
 +++
 date = "Fri, 04 Aug 2017 00:11:00 +0000"
 title = "I need to rsync from a root protected directory on one server to a root protected directory on another"
-slug = "[SLUG]"
+slug = "rsync-root-protected-directories-between-servers"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

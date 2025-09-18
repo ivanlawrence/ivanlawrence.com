@@ -1,7 +1,7 @@
 +++
 date = "Fri, 30 Aug 2013 18:55:00 +0000"
 title = "Multiple output files with dd utility example"
-slug = "[SLUG]"
+slug = "multiple-output-files-with-dd-utility-example"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

@@ -1,7 +1,7 @@
 +++
 date = "Thu, 12 Sep 2013 21:26:00 +0000"
 title = "Compare Directories using Diff in Linux"
-slug = "[SLUG]"
+slug = "compare-directories-using-diff-in-linux"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

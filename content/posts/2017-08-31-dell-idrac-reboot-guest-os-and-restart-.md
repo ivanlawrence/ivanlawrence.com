@@ -1,7 +1,7 @@
 +++
 date = "Thu, 31 Aug 2017 17:24:00 +0000"
 title = "Dell iDRAC Reboot Guest OS and Restart DRAC commands"
-slug = "[SLUG]"
+slug = "dell-idrac-reboot-and-restart-commands"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

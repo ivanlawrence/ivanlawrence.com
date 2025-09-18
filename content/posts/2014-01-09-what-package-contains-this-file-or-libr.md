@@ -1,7 +1,7 @@
 +++
 date = "Thu, 09 Jan 2014 22:47:00 +0000"
 title = "What package contains this file or library Use yum provides to find out"
-slug = "[SLUG]"
+slug = "yum-provides-to-find-package-for-file"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

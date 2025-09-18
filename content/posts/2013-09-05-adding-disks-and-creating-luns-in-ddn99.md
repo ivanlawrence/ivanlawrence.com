@@ -1,7 +1,7 @@
 +++
 date = "Thu, 05 Sep 2013 23:00:00 +0000"
 title = "Adding Disks and Creating LUNs in DDN9900 and DDN S7000 Chassis"
-slug = "[SLUG]"
+slug = "adding-disks-and-creating-luns-in-ddn9900"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

@@ -1,7 +1,7 @@
 +++
 date = "Sat, 06 Oct 2018 00:01:00 +0000"
 title = "gcloud ADC for local testing and how I will never get that day back"
-slug = "[SLUG]"
+slug = "gcloud-adc-for-local-testing"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []

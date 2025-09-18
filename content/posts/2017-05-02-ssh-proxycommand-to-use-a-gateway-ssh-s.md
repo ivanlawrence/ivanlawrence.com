@@ -1,7 +1,7 @@
 +++
 date = "Tue, 02 May 2017 17:03:00 +0000"
 title = "SSH ProxyCommand to use a gateway ssh server for subsequent SSH connections"
-slug = "[SLUG]"
+slug = "ssh-proxycommand-gateway-server"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []
