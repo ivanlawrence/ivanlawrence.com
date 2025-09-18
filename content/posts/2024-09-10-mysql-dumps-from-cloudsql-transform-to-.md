@@ -1,7 +1,7 @@
 +++
 date = "Tue, 10 Sep 2024 20:34:00 +0000"
 title = "MySQL dumps from cloudSQL transform to csv then load infile locally"
-slug = "[SLUG]"
+slug = "mysql-dumps-cloudsql-transform-csv-load"
 authors = [ "Ivan Lawrence" ]
 tags = [ "nerdler" ]
 categories = []
