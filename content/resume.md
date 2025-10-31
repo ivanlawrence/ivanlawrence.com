@@ -113,9 +113,9 @@ Film Roman is an animation studio known for producing Emmy Award-winning shows s
 ## Education
 ------------------------------------------
 
-*   Utah Valley State College in Orem, UT
+*   Utah Valley State College in Orem, UT - Film Studies
     
-*   Los Angeles Pierce Community College in Woodland Hills, CA
+*   Los Angeles Pierce Community College in Woodland Hills, CA - General Education
     
 *   Microsoft Server Certified
     
