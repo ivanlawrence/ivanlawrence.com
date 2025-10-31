@@ -3,14 +3,13 @@ title: Ivan Lawrence
 description: Professional Resume for Ivan Lawrence
 authors: "Ivan Lawrence"
 ---
-## Systems Design // Full-Stack Developer // DevOps Engineer
+## Systems Design // Full-Stack Developer // DevOps Engineer // SRE
 
 **Email:** [ivan@ivanlawrence.com](mailto:ivan@ivanlawrence.com) | **Phone:** 818-264-4467 | **Location:** Simi Valley, CA
 
-**Links:** [LinkedIn](https://www.linkedin.com/in/ivan-lawrence/) | [IMDb](http://www.imdb.com/name/nm2648503/) | [HackerRank](https://www.hackerrank.com/profile/ivanlawrence) | [https://ivanlawrence.com/resume](https://ivanlawrence.com/resume) [download](https://resume.ivanlawrence.com)
+**Links:** [LinkedIn](https://www.linkedin.com/in/ivan-lawrence/) | [IMDb](http://www.imdb.com/name/nm2648503/) | [HackerRank](https://www.hackerrank.com/profile/ivanlawrence) | [https://ivanlawrence.com/resume](https://ivanlawrence.com/resume) ([download](https://resume.ivanlawrence.com))
 
 # Professional Summary
-
 - 20+ years of professional experience across a variety of technical disciplines
 - 6+ years of Full-Stack development (all aspects of SDLC)
 - 6+ years of systems design and integration (hardware and software)
@@ -27,7 +26,7 @@ authors: "Ivan Lawrence"
 # Experience 
 ------------------------------------------
 
-## **Software / Full-Stack Developer**
+## **Software / Full-Stack Developer / SRE **
 ### MerchantWords.com, May 2018 - Present
 
 MerchantWords collects, processes, and analyzes billions of data points from major online marketplaces to provide marketing insights into each sales platform.
