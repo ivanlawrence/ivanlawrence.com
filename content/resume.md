@@ -96,7 +96,7 @@ Film Roman is an animation studio known for producing Emmy Award-winning shows s
 # Skills
 ------------------------------------------
 
-*   **Programming Languages and Tools:** Java, JSP, JavaScript, CSS, HTML, Git, Vim, VSCode, Python, Regexp, ReactJS/VueJS
+*   **Programming Languages and Tools:** Java, JSP, JavaScript, CSS, HTML, Git, Vim, VSCode, Python, Regexp, ReactJS/VueJS, BeautifulSoup
     
 *   **Operating Systems:** Modern Linux (Alpine, FreeBSD, RHEL, Debian/Ubuntu), Windows Desktop/Server & Clustering, MacOS Desktop/Server
     
