@@ -113,6 +113,8 @@ Film Roman is an animation studio known for producing Emmy Award-winning shows s
 ## Education
 ------------------------------------------
 
+*   HackerRank: [Software Engineer](https://www.hackerrank.com/certificates/faa450ca2ab8) & [JAVA (Basic)](https://www.hackerrank.com/certificates/df6a906eb6b3)
+
 *   Utah Valley State College in Orem, UT - Film Studies
     
 *   Los Angeles Pierce Community College in Woodland Hills, CA - General Education
@@ -122,5 +124,3 @@ Film Roman is an animation studio known for producing Emmy Award-winning shows s
 *   Data Direct Networks - Hardware / SFA Fundamentals
     
 *   QLogic Fibre Channel Specialist
-
-*   HackerRank: Software Engineer & JAVA (Basic)
