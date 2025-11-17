@@ -26,7 +26,7 @@ authors: "Ivan Lawrence"
 # Experience 
 ------------------------------------------
 
-## **Software / Full-Stack Developer / SRE **
+## **Software / Full-Stack Developer / SRE**
 ### MerchantWords.com, May 2018 - Present
 
 MerchantWords collects, processes, and analyzes billions of data points from major online marketplaces to provide marketing insights into each sales platform.
