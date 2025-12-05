@@ -11,16 +11,16 @@ authors: "Ivan Lawrence"
 
 # Professional Summary
 - 20+ years of professional experience across a variety of technical disciplines
-- 6+ years of Full-Stack development (all aspects of SDLC)
-- 6+ years of systems design and integration (hardware and software)
-- 12+ years of Enterprise IT and Executive Support
+- 7+ years of Full-Stack development (all aspects of SDLC)
+- 8+ years of systems design and integration (hardware and software)
+- 12+ years of Data Center Infrastructure Management (DCIM) and IT Governance (Enterprise IT, Executive Support)
 - MGMT: 2+ years as department lead // 1 year leading data scientist and devs (4 direct reports)
 
 # Impact Summary
 - 70% monthly spend reduction with cloud exit
-- 99.999% uptime across multi-petabyte storage
+- 99.999% uptime across multi-petabyte storage and globally distributed infrastructure
 - Proven business consistency during catastrophic hardware failure
-- Decreased downtime by 61% by implementing automaton
+- Decreased downtime by 61% by implementing automaton pipelines
 
 
 # Experience 
@@ -31,19 +31,19 @@ authors: "Ivan Lawrence"
 
 MerchantWords collects, processes, and analyzes billions of data points from major online marketplaces to provide marketing insights into each sales platform.
 
-*   **Oversee all technology**, implementing new AI tools and workflows, personally developing infrastructure/operations and UX/full-stack software.
+*   **Oversee all technology**, implementing new AI tools and workflows, personally developing infrastructure/operations and UX/full-stack software for sites with over 100K/req/hr.
     
-*   **Pioneered the CI/CD pipeline** to ensure consistent, repeatable deployments and efficient bug/fix analysis.
+*   **Create and maintain a CI/CD pipeline** ensuring consistent, repeatable deployments, global scale, and efficient bug/fix analysis.
     
-*   **Ensure backward compatibility** for new deployments across a blend of monolith and microservices, written in various modern frameworks, vanilla, and legacy code spanning over a decade.
+*   **QA and integration testing** ensuring all deployments (across a blend of monolith and microservices) pass tests ensuring global service availability and roll back requirements are met.
     
-*   **Ensure compliance with regulatory requirements** like GDPR, maintaining secure frontend/backend technologies within international restrictions.
+*   **SRE using GitOps methodologies** with a focus on environment repeatability and business continuity utilizing IaC and Configuration Management.
     
-*   **Practice GitOps methodologies** with a focus on environment repeatability and business continuity.
+*   **Ensure compliance with regulatory requirements** like GDPR/PCI, maintaining secure frontend/backend technologies within international restrictions and ensuring all instances are security patched.
     
-*   **Manage a blended, cloud-agnostic hybrid code-based infrastructure**, utilizing providers that offer the most business sense.
+*   **Manage a blended, cloud-agnostic hybrid infrastructure**, spanning the common providers (AWS, GCP, DigitalOcean, etc) and on premises private clouds (Incus/LXD, VMWare, Kubernetes, etc) to best fit business needs.
     
-*   **Utilize a wide range of software daily**, including MySQL, ELK (ElasticSearch/Kibana), JAVA, NodeJS, Go, Python, VueJS, JQuery, BootStrap JSP, BASH, Linux CLI tools, Ansible, Terraform, Git, BigQuery, Cloud Build, Cloud Functions, and Google App Engine.
+*   **Utilize a wide range of software daily**, including MySQL, BigQuery, ELK, Java, JSP/JSTL, NodeJS, Go, Python, VueJS, JQuery, BootStrap, Tailwind, BASH, Linux CLI tools, Ansible, Terraform, Git, Cloud Build, Cloud Functions, and Google App Engine.
     
 
 ## **DevOps / SysOps Engineer**
@@ -59,7 +59,7 @@ ReachLocal is a marketing and SEO platform that provides services to businesses 
     
 *   **Managed the global infrastructure**, which included DNS/BIND, private CDN, nginx, NetApp, EC2, Route53, ELB, CloudFormation, hypervisor management (XEN, OpenCloud), and bare metal installations of RHEL/Ubuntu systems.
     
-*   **Previously led the Enterprise Technology team**, where we managed site-to-site VPN, WiFi and network infrastructure, office security systems, a JIRA-based ticketing system, SRE support for ticket/bug management, hardware monitoring, machine room environmental monitoring, site redundancy, and global data backup and offsite recovery.
+*   **Led the Enterprise Technology team**, where we managed site-to-site VPN, WiFi and network infrastructure, office security systems, a JIRA-based ticketing system, SRE support for ticket/bug management, hardware monitoring, machine room environmental monitoring, site redundancy, and global data backup and offsite recovery.
     
 *   **Developed a reputation for discovering, understanding, and gaining access to legacy or orphaned systems** and services despite dynamic team structures.
     
