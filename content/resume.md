@@ -31,7 +31,7 @@ authors: "Ivan Lawrence"
 
 MerchantWords collects, processes, and analyzes billions of data points from major online marketplaces to provide marketing insights into each sales platform.
 
-*   **Oversee all technology**, implementing new AI tools and workflows, personally developing infrastructure/operations and UX/full-stack software for sites with over 100K/req/hr.
+*   **Oversee all technology**, implementing new AI tools and workflows, personally developing infrastructure/operations and UX/full-stack software.
     
 *   **Create and maintain a CI/CD pipeline** ensuring consistent, repeatable deployments, global scale, and efficient bug/fix analysis.
     
