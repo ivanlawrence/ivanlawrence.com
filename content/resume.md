@@ -113,7 +113,11 @@ Film Roman is an animation studio known for producing Emmy Award-winning shows s
 ## Education
 ------------------------------------------
 
-*   HackerRank: [Software Engineer](https://www.hackerrank.com/certificates/faa450ca2ab8) & [JAVA (Basic)](https://www.hackerrank.com/certificates/df6a906eb6b3)
+*   [HackerRank](https://www.hackerrank.com/profile/ivanlawrence): 
+    * [Software Engineer](https://www.hackerrank.com/certificates/faa450ca2ab8)
+    * [JAVA (Basic)](https://www.hackerrank.com/certificates/df6a906eb6b3)
+    * [SQL (Intermediate)](https://www.hackerrank.com/certificates/9fb501237f22)
+    * [SQL (Basic)](https://www.hackerrank.com/certificates/020e322da5c8)
 
 *   Utah Valley State College in Orem, UT - Film Studies
     
