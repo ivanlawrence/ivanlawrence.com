@@ -20,14 +20,45 @@ authors: "Ivan Lawrence"
 - 70% monthly spend reduction with cloud exit
 - 99.999% uptime across multi-petabyte storage and globally distributed infrastructure
 - Proven business consistency during catastrophic hardware failure
-- Decreased downtime by 61% by implementing automaton pipelines
+- Decreased downtime by 61% by implementing automation pipelines
 
 
 # Experience 
 ------------------------------------------
 
+## **Sr. Infrastructure Engineer**
+### Retired.com (Remote), Feb 2026 - Present
+
+#### Infrastructure
+*   **Build and maintain a multi-cloud presence** with a focus on migration and consolidation to a single cloud host
+
+*   **Architect high-availability, AI-focused cloud infrastructure** compliant with FinTech standards
+
+*   **Homogenize server fleets** into Linux containers and VMs
+
+#### DevOps & Automation
+*   **Manage company-wide CI/CD pipelines** for the SDLC
+
+*   **Develop internal tools** using agentic programming
+
+*   **Guide company code best practices** and enforce security guidelines
+
+#### Security & Networking
+*   **Enable 200+ employees to securely access cloud resources** via VPN and private network solutions
+
+*   **Enforce Zero Trust remote endpoint posture awareness** for all employee systems
+
+*   **Manage global enterprise DNS and WAF configurations**
+
+*   **Share SecOps responsibilities**, including OS patching, breach tabletop drills, and email security
+
+#### Data & Operations
+*   **Administer MS SQL, PostgreSQL, and SQLite databases** (backups, global DR)
+
+*   **Resolve Tier-3 desktop and access support issues**
+
 ## **Software / Full-Stack Developer / SRE**
-### MerchantWords.com, May 2018 - Present
+### MerchantWords.com, May 2018 - Feb 2026
 
 MerchantWords collects, processes, and analyzes billions of data points from major online marketplaces to provide marketing insights into each sales platform.
 
