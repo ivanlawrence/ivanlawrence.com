@@ -30,7 +30,7 @@ authors: "Ivan Lawrence"
 ### Retired.com (Remote), Feb 2026 - Present
 
 #### Infrastructure
-*   **Build and maintain a multi-cloud presence** with a focus on migration and consolidation to a single cloud host
+*   **Build and maintain a multi-cloud presence including Azure** with a focus on migration and consolidation to a single cloud host
 
 *   **Architect high-availability, AI-focused cloud infrastructure** compliant with FinTech standards
 
@@ -72,7 +72,7 @@ MerchantWords collects, processes, and analyzes billions of data points from maj
     
 *   **Ensure compliance with regulatory requirements** like GDPR/PCI, maintaining secure frontend/backend technologies within international restrictions and ensuring all instances are security patched.
     
-*   **Manage a blended, cloud-agnostic hybrid infrastructure**, spanning the common providers (AWS, GCP, DigitalOcean, etc) and on premises private clouds (Incus/LXD, VMWare, Kubernetes, etc) to best fit business needs.
+*   **Manage a blended, cloud-agnostic hybrid infrastructure**, spanning GCP (VMs, App Engine, BigQuery/Bigtable, Cloud Build/Functions) and on premises private clouds (Incus/LXD, Linux, Kubernetes, etc) to best fit business needs.
     
 *   **Utilize a wide range of software daily**, including MySQL, BigQuery, ELK, Java, JSP/JSTL, NodeJS, Go, Python, VueJS, JQuery, BootStrap, Tailwind, BASH, Linux CLI tools, Ansible, Terraform, Git, Cloud Build, Cloud Functions, and Google App Engine.
     
@@ -88,7 +88,7 @@ ReachLocal is a marketing and SEO platform that provides services to businesses 
     
 *   **Assumed rotating SCRUM Master responsibilities**, fostering a broader understanding of team requirements across software development, database administration, and infrastructure.
     
-*   **Managed the global infrastructure**, which included DNS/BIND, private CDN, nginx, NetApp, EC2, Route53, ELB, CloudFormation, hypervisor management (XEN, OpenCloud), and bare metal installations of RHEL/Ubuntu systems.
+*   **Managed the global infrastructure**, which included DNS/BIND, private CDN, nginx, NetApp (provisioning, performance tuning, snapshot tuning and management, replication, storage lifecycle management, storage policies), Azure, EC2, Route53, ELB, CloudFormation, hypervisor management (VMware vSphere/ESXi, Nutanix, XEN, OpenCloud), and bare metal installations of RHEL/Ubuntu systems.
     
 *   **Led the Enterprise Technology team**, where we managed site-to-site VPN, WiFi and network infrastructure, office security systems, a JIRA-based ticketing system, SRE support for ticket/bug management, hardware monitoring, machine room environmental monitoring, site redundancy, and global data backup and offsite recovery.
     
@@ -129,17 +129,19 @@ Film Roman is an animation studio known for producing Emmy Award-winning shows s
 
 *   **Programming Languages and Tools:** Java, JSP, JavaScript, CSS, HTML, Git, Vim, VSCode, Python, Regexp, ReactJS/VueJS, BeautifulSoup
     
-*   **Operating Systems:** Modern Linux (Alpine, FreeBSD, RHEL, Debian/Ubuntu), Windows Desktop/Server & Clustering, MacOS Desktop/Server
+*   **Operating Systems:** Linux expert (Alpine, FreeBSD, RHEL, Debian/Ubuntu, etc) - lifecycle management via idempotent workflows, in-place updates and replacement, long-running A/B update scenarios, Windows Desktop/Server & Clustering, MacOS Desktop/Server
     
-*   **Virtualization:** LXD/Incus, KVM, QEMU, Xen, OpenStack, Docker, VMWare ESXi, Microsoft Virtual Server/Hyper-V
+*   **Virtualization:** LXD/Incus, KVM, QEMU, Xen, OpenStack, Docker, VMware vSphere/ESXi, Nutanix, Microsoft Virtual Server/Hyper-V
     
 *   **Web/Network Applications:** NGINX/Apache/Eclipse web servers, HAProxy, iptables, nmap
     
 *   **Networking:** Brocade/Foundry, Ubiquity, pfSense, Cisco/Linksys, PIX firewall, QLogic FiberChannel, Juniper
     
-*   **Storage:** Btrfs, LVM, ZFS, TrueNAS, StorNext, TerraBlock, NetApp, EqualLogic, Nexsan, Dell FileVault, IBM MegaRAID, DotHill, DataDirect Networks
+*   **Storage:** Btrfs, LVM, ZFS, TrueNAS, StorNext, TerraBlock, NetApp (provisioning, performance tuning, snapshot tuning and management, replication, storage lifecycle management, storage policies), EqualLogic, Nexsan, Dell FileVault, IBM Power Systems, IBM Storage / SAN products (incl. MegaRAID), DotHill, DataDirect Networks
     
-*   **Hardware:** Dell, HP, IBM, SuperMicro, Chenbro
+*   **Hardware:** Dell, HP, IBM Power Systems and Hardware, SuperMicro, Chenbro
+    
+*   **Cloud:** Heavy expertise across GCP, Azure, and AWS - multi-cloud, hybrid cloud, migration/consolidation
     
 ## Education
 ------------------------------------------
